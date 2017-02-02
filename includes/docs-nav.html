@@ -1,2 +1,2 @@
-{% for d in site.docs %}- {{ d.title }}
+{% for d in site.docs %}- [{{ d.title }}]({{ d.url | absolute_url }})
 {% endfor %}
